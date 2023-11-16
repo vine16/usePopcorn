@@ -240,6 +240,7 @@ body {
 /* ******* */
 
 .details {
+  position: relative;
   line-height: 1.4;
   font-size: 1.4rem;
 }
@@ -337,6 +338,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#ripple-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*
